@@ -17,6 +17,7 @@
 		A6F288C927DF191E00F94A5B /* TestLibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F288C827DF191E00F94A5B /* TestLibUITests.swift */; };
 		A6F288CB27DF191E00F94A5B /* TestLibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F288CA27DF191E00F94A5B /* TestLibUITestsLaunchTests.swift */; };
 		A6F288DA27DF19A400F94A5B /* TestCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F288D927DF19A400F94A5B /* TestCocoa.swift */; };
+		A6F2891A27DF761600F94A5B /* PRHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2891927DF761600F94A5B /* PRHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A6F288C827DF191E00F94A5B /* TestLibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLibUITests.swift; sourceTree = "<group>"; };
 		A6F288CA27DF191E00F94A5B /* TestLibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLibUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A6F288D927DF19A400F94A5B /* TestCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCocoa.swift; sourceTree = "<group>"; };
+		A6F2891927DF761600F94A5B /* PRHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A6F288B227DF191E00F94A5B /* LaunchScreen.storyboard */,
 				A6F288B527DF191E00F94A5B /* Info.plist */,
 				A6F288D927DF19A400F94A5B /* TestCocoa.swift */,
+				A6F2891927DF761600F94A5B /* PRHandler.swift */,
 			);
 			path = TestLib;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				A6F288AC27DF191C00F94A5B /* ViewController.swift in Sources */,
 				A6F288A827DF191B00F94A5B /* AppDelegate.swift in Sources */,
+				A6F2891A27DF761600F94A5B /* PRHandler.swift in Sources */,
 				A6F288AA27DF191C00F94A5B /* SceneDelegate.swift in Sources */,
 				A6F288DA27DF19A400F94A5B /* TestCocoa.swift in Sources */,
 			);
