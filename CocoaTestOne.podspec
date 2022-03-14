@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'TestCocoa'
+  s.name             = 'CocoaTestOne'
   s.version          = '0.1.0'
   s.swift_version    = ['4.0','5.0']
   s.summary          = 'addition and subtraction function create'
@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
 addition and subtraction function create!
                        DESC
  
-  s.homepage         = 'https://github.com/ParthspectusiOS/TestCocoa'
+  s.homepage         = 'https://github.com/ParthspectusiOS/CocoaTestOne'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author          = { '<Parth>' => '<parth.radadiya@spectusinfotech.com' }
-  s.source           = { :git => 'https://github.com/ParthspectusiOS/TestCocoa.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ParthspectusiOS/CocoaTestOne.git', :tag => s.version.to_s }
  
-  s.ios.deployment_target = '11.0'
-  s.source_files = 'TestLib/*.{swift,plist}'
+  s.ios.deployment_target = '13.0'
+  s.source_files = 'TestLib/*.swift'
  
 end
