@@ -16,7 +16,10 @@ addition and subtraction function create!
  
   s.ios.deployment_target = '13.0'
   s.source_files = 'TestLib/*.{swift}'
+  s.resource_bundles = { 
+    'TestLib' => ['TestLib/Pod/Resources/**/*.{lproj,png,storyboard}']
+   }
   s.resources = 'TestLib/**/*.{png,jpeg,jpg,storyboard,xcassets}'
-  s.resources_bundles = { 'resources' => ['TestLib'/**/*.{lproj,storyboard}']
+ 
  
 end
