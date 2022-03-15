@@ -7,10 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
     var objOfTestCocca  = TestCocoa()
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         print(objOfTestCocca.addTwoIntNumber(a: 5, b: 6))
         // Do any additional setup after loading the view.

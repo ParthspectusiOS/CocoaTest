@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TestCocoa{
+public class TestCocoa{
     public  func addTwoIntNumber(a:Int,b:Int) -> Int{
         return a + b
     }
