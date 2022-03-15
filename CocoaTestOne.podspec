@@ -15,6 +15,6 @@ addition and subtraction function create!
   s.source           = { :git => 'https://github.com/ParthspectusiOS/CocoaTestOne.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '13.0'
-  s.source_files = 'TestLib/*.swift'
+  s.source_files = 'TestLib/*.{swift}'
  
 end

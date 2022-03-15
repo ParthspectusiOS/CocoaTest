@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class PRHandler:UIViewController{
+public class PRHandler:UIViewController{
     public func gotoPushViewController(){
         //let nextVC = UIViewController()
 //        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
