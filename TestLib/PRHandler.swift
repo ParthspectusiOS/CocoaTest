@@ -10,14 +10,15 @@ import UIKit
 
 public class PRHandler:UIViewController{
     public func gotoPushViewController(){
-        //let nextVC = UIViewController()
-//        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-//        if let nextVC = storyBoard.instantiateViewController(withIdentifier: "") as? nextVC {
-            self.navigationController?.pushViewController(UIViewController(), animated: true)
-       // }
         
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        if let nextVC = storyBoard.instantiateViewController(withIdentifier: "nextVC") as? PRHandler {
+            self.navigationController?.pushViewController(nextVC, animated: true)
+            
+        }
     }
     public func goToPopViewController(){
-        self.navigationController!.popToViewController(UIViewController(), animated: true)
+        self.navigationController?.popViewController(animated: true)
     }
 }
+

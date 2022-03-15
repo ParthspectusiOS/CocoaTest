@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaTestOne'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.swift_version    = ['4.0','5.0']
   s.summary          = 'addition and subtraction function create'
  
