@@ -16,6 +16,6 @@ addition and subtraction function create!
  
   s.ios.deployment_target = '13.0'
   s.source_files = 'TestLib/*.{swift}'
-  s.resources = "TestLib"/**/*.{png, jpeg, jpg, storyboard, xib,acassests}"
+  s.resources = "TestLib"/**/*.{png, jpeg, jpg, storyboard,acassests}"
  
 end
