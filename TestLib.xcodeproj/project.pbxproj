@@ -80,16 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6A8547427E1D88400F9E578 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A6F288B227DF191E00F94A5B /* LaunchScreen.storyboard */,
-				A6F288B027DF191E00F94A5B /* Assets.xcassets */,
-				A6F288AD27DF191C00F94A5B /* Main.storyboard */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		A6F2889B27DF191B00F94A5B = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +103,12 @@
 		A6F288A627DF191B00F94A5B /* TestLib */ = {
 			isa = PBXGroup;
 			children = (
-				A6A8547427E1D88400F9E578 /* Resources */,
 				A6F288A727DF191B00F94A5B /* AppDelegate.swift */,
 				A6F288A927DF191C00F94A5B /* SceneDelegate.swift */,
 				A6F288AB27DF191C00F94A5B /* ViewController.swift */,
+				A6F288B227DF191E00F94A5B /* LaunchScreen.storyboard */,
+				A6F288B027DF191E00F94A5B /* Assets.xcassets */,
+				A6F288AD27DF191C00F94A5B /* Main.storyboard */,
 				A6F288B527DF191E00F94A5B /* Info.plist */,
 				A6F288D927DF19A400F94A5B /* TestCocoa.swift */,
 				A6F2891927DF761600F94A5B /* PRHandler.swift */,
