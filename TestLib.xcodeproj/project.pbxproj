@@ -448,7 +448,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U6RL78T42R;
+				DEVELOPMENT_TEAM = 9HY5MM9364;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestLib/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,7 +479,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U6RL78T42R;
+				DEVELOPMENT_TEAM = 9HY5MM9364;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestLib/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
