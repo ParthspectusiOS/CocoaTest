@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaTestOne'
-  s.version          = '1.4.9'
+  s.version          = '1.5.9'
   s.swift_version    = ['4.0','5.0']
   s.summary          = 'addition and subtraction function create'
  
@@ -17,7 +17,7 @@ addition and subtraction function create!
   s.ios.deployment_target = '13.0'
   s.source_files = 'TestLib/*.{swift}'
   s.resource_bundles = {
-     'TestLib' => ['SampleDemoTest/Pods/CocoaTestOne/Resources*.storyboard']
+     'TestLib' => ['TestLib/Pod/Resources*.storyboard']
  }
   s.resources = 'TestLib/**/*.{png,jpeg,jpg,storyboard,xcassets}'
 
